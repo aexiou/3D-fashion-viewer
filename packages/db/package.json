@@ -1,0 +1,16 @@
+{
+  "name": "@viewer/db",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^5.15.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.15.0",
+    "typescript": "^5.4.0"
+  },
+  "scripts": {
+    "prisma": "prisma",
+    "generate": "prisma generate"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "lib": ["ES2022", "DOM"],
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+    "baseUrl": ".",
+    "paths": {
+      "@viewer/ai": ["packages/ai/src"],
+      "@viewer/db": ["packages/db/src"],
+      "@viewer/viewer-core": ["packages/viewer-core/src"],
+      "@viewer/utils": ["packages/utils/src"]
+    }
+  }
+}

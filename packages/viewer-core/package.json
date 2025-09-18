@@ -1,0 +1,11 @@
+{
+  "name": "@viewer/viewer-core",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

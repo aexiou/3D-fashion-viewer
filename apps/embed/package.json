@@ -1,0 +1,17 @@
+{
+  "name": "@viewer/embed",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc && esbuild src/index.ts --bundle --format=esm --outfile=dist/index.js && esbuild src/index.ts --bundle --format=iife --global-name=ViewerEmbed --outfile=dist/index.umd.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.5",
+    "typescript": "^5.4.0"
+  }
+}

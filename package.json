@@ -1,11 +1,13 @@
 {
   "name": "3d-fashion-viewer",
   "private": true,
+  "packageManager": "pnpm@9.0.0",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "typecheck": "turbo typecheck"
+    "typecheck": "turbo typecheck",
+    "prisma:dev": "pnpm --filter @viewer/db prisma generate && pnpm --filter @viewer/db prisma migrate dev"
   },
   "devDependencies": {
     "turbo": "^2.0.0",
